@@ -9,7 +9,7 @@
     <!-- 프로젝트를 생성하는 조직 고유 아이디 (도메인 거꾸로 작성) -->
     <groupId>org.example</groupId>
     <!-- 프로젝트 빌드시 패키징할 파일의 대표 이름 (groupId 내에서 유일해야 함) -->
-    <artifactId>test</artifactId>
+    <artifactId>naverCrawling</artifactId>
     <!-- WAR 패키징 -->
     <packaging>war</packaging>
     <!-- 프로젝트 빌드시 패키징할 파일 버전 (개발 중에서는 SNAPSHOT 접미사 사용) -->
@@ -41,6 +41,13 @@
 
     <!-- dependencies 태그 안에는 프로젝트와 의존 관계에 있는 라이브러리들을 관리함 -->
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.3</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
