@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
 public class PrivateController { // 개인 설정 페이지 컨트롤러
     private MemberService memberService; // = MemberService.getInstance();
 
-    private CookieMgr cookieMgr ;  // = CookieMgr.getInstance();
+    private CookieMgr cookieMgr; // = CookieMgr.getInstance();
     private SessionMgr sessionMgr; // = SessionMgr.getInstance();
 
     @Autowired

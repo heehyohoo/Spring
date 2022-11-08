@@ -23,6 +23,7 @@ public class SearchController { // 유저 검색 페이지 컨트롤러
 
     private SessionMgr sessionMgr; // = SessionMgr.getInstance();
 
+
     @Autowired
     public SearchController(MemberService memberService, SessionMgr sessionMgr) {
         this.memberService = memberService;

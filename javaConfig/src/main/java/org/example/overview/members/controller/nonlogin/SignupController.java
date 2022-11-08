@@ -21,9 +21,10 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/members")
 public class SignupController {
 
-    private SessionMgr sessionMgr; // = SessionMgr.getInstance();
+    private SessionMgr sessionMgr; //= SessionMgr.getInstance();
     private CookieMgr cookieMgr; // = CookieMgr.getInstance();
     private MemberService memberService; // = MemberService.getInstance();
+
 
     @Autowired
     public SignupController(SessionMgr sessionMgr, CookieMgr cookieMgr, MemberService memberService) {

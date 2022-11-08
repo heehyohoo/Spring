@@ -30,6 +30,10 @@ public class MemberDAO implements IMemberDAO {
     private static final String MEMBER_DELETE = "delete member where uId = ?";
     private static final String MEMBER_DELETE_ALL = "delete member";
 
+    public MemberDAO () {
+        System.out.println("MemberDAO()");
+    }
+
 //    public static MemberDAO getInstance() {
 //        if (memberDAO == null) {
 //            memberDAO = new MemberDAO();

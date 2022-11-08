@@ -20,7 +20,8 @@ public class LoginController {
 
     private SessionMgr sessionMgr; // = SessionMgr.getInstance();
     private CookieMgr cookieMgr; // = CookieMgr.getInstance();
-    private MemberService memberService; // = MemberService.getInstance();
+    private MemberService memberService ; //= MemberService.getInstance();
+
 
     @Autowired
     public LoginController(SessionMgr sessionMgr, CookieMgr cookieMgr, MemberService memberService) {

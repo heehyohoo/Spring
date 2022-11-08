@@ -15,16 +15,19 @@ import java.util.stream.Collectors;
 @Service
 public class MemberService implements IMemberService {
 
-    private CookieMgr cookieMgr; // = CookieMgr.getInstance();
-    private MemberDAO memberDAO; // = MemberDAO.getInstance();
+    private MemberDAO memberDAO; // = MemberDAO.getInstance(); // 객체 생성
 //    private static MemberService memberService = null;
 
 
+    public MemberService() {
+        System.out.println("MemberService()");
+    }
+
     @Autowired
-    public MemberService(CookieMgr cookieMgr, MemberDAO memberDAO) {
-        this.cookieMgr = cookieMgr;
+    public MemberService(MemberDAO memberDAO) {
         this.memberDAO = memberDAO;
     }
+
 
     //    public static MemberService getInstance() {
 //        if (memberService == null) {
@@ -32,7 +35,7 @@ public class MemberService implements IMemberService {
 //        }
 //        return memberService;
 //    }
-//
+
     @Override
     public List<MemberDTO> findByUserIdOrEmail(String q) {
         if (q == null) return null;

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f650883-63be-4044-85a5-7551185851bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a458a7c9-95f5-43ae-aa8f-2f246eceefdf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../jsp_servlet/overview/overview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jsp_servlet/overview/overview.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GkjQ8rCN0fMBv1Jj4O0B8uyk2k" />
+  <component name="ProjectId" id="2GwBUwsXFC1kyn6qvmPFLW4Sycu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,29 +29,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/WorkSpace/Spring/overview",
+    "last_opened_file_path": "C:/WorkSpace/Spring/javaConfig",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f650883-63be-4044-85a5-7551185851bc" name="Changes" comment="" />
-      <created>1666939457042</created>
+      <changelist id="a458a7c9-95f5-43ae-aa8f-2f246eceefdf" name="Changes" comment="" />
+      <created>1667289784488</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666939457042</updated>
-      <workItem from="1666939458780" duration="47000" />
-      <workItem from="1666941687658" duration="96000" />
-      <workItem from="1666953913152" duration="28000" />
-      <workItem from="1667200151256" duration="1987000" />
+      <updated>1667289784488</updated>
+      <workItem from="1667289785946" duration="71000" />
+      <workItem from="1667290094789" duration="19000" />
+      <workItem from="1667290251771" duration="1241000" />
     </task>
     <servers />
   </component>

@@ -31,9 +31,7 @@ public class LifeCycle implements InitializingBean, DisposableBean, BeanNameAwar
 
     @Autowired
     public LifeCycle(AnotherLifeCycle anotherLifeCycle) {
-
         this.anotherLifeCycle = anotherLifeCycle;
-        //this.anotherLifeCycle = anotherLifeCycle;
         System.out.println("LifeCycle(AnotherLifeCycle anotherLifeCycle)");
     }
 
@@ -69,4 +67,6 @@ public class LifeCycle implements InitializingBean, DisposableBean, BeanNameAwar
     public void destroyMethod() {
         System.out.println(this.getClass().getName() + " destroyMethod()");
     }
+
+
 }

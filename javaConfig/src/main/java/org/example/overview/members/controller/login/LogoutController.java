@@ -19,7 +19,7 @@ public class LogoutController { // 로그아웃 컨트롤러
     private MemberService memberService; // = MemberService.getInstance();
 
     private SessionMgr sessionMgr; // = SessionMgr.getInstance();
-    private CookieMgr cookieMgr ; //= CookieMgr.getInstance();
+    private CookieMgr cookieMgr; // = CookieMgr.getInstance();
 
     @Autowired
     public LogoutController(MemberService memberService, SessionMgr sessionMgr, CookieMgr cookieMgr) {
